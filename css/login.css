@@ -1,0 +1,245 @@
+/*
+Theme Name:  EU BOOTSRAP
+Version: 1.0
+Author: Acit Jazz 2014
+*/
+#logologin{
+	text-align:center;
+	margin:40px 0 00 ;
+}
+.loginform {
+    /* Size and position */
+    width: 530px;
+    margin: 30px auto 30px;
+    padding: 15px;
+    position: relative;
+
+    /* Styles */
+    background: #444;
+    color: #e9e9e9;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),        
+        0 1px 5px rgba(0,0,0,0.2),        
+        0 0 0 12px rgba(255,255,255,0.4); 
+	border-radius:10px;
+}
+
+.loginform h1 {
+    font-size:20px;
+	font-weight:900;
+	text-transform:uppercase;
+	margin:0 0 20px 0;
+	padding:10px 20px;
+	background:#333;
+	border-radius:5px;
+}
+
+.loginform h1 .log-in,
+.loginform h1 .sign-up {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.loginform h1 .log-in {
+    color: #6c6763;
+    padding-right: 2px;
+}
+
+.loginform h1 .sign-up {
+    color: #ffb347;
+    padding-left: 2px;
+}
+
+.loginform .rows {
+	clear:both;
+	padding:10px 0;
+	text-align:left;
+	margin:0;
+}
+
+.loginform .float:first-of-type {
+    padding-right: 5px;
+}
+
+.loginform .float:last-of-type {
+    padding-left: 5px;
+}
+
+.loginform label {
+    display: block;
+    padding: 0 0 5px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.8);
+    font-size: 14px;
+	color:#ccc;
+}
+.rowradio{
+	background:#eaeaea;
+	padding:5px;
+	overflow:hidden;
+	color:#666;
+}
+.rowradio span{
+	margin:0 40px 0 5px;
+}
+.loginform label i {
+    margin-right: 5px; /* Gap between icon and text */
+    display: inline-block;
+    width: 15px;
+}
+
+.loginform input[type=text],
+.loginform input[type=password],.loginform select {
+	background:#eaeaea;
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    width: 100%;
+    padding:5px 5px;
+	margin:0;
+	border:none;
+	color:#222;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.loginform input[type=text]:hover,
+.loginform input[type=password]:hover {
+	background:#fff;
+}
+.row-radio span{
+	padding:0 40px 0 10px;
+} 
+.stranumber{
+	display:none;
+	background:#333;
+	padding:15px;
+}
+
+.loginform label:hover ~ input {
+	background:#fff;
+}
+
+.loginform input[type=text]:focus,
+.loginform input[type=password]:focus {
+	background:#fff;
+    outline: none; /* Remove Chrome's outline */
+}
+
+.loginform input[type=submit]{
+    /* Size and position */
+    width: 30%;
+    height: 30px;
+    position: relative;
+    /* Styles */
+    box-shadow: inset 0 1px rgba(255,255,255,0.3);
+    border-radius: 3px;
+    cursor: pointer;
+
+    /* Font styles */
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 30px; /* Same as height */
+    text-align: center;
+    font-weight: 300;
+}
+
+.loginform input[type=submit] {
+	margin:10px auto;
+    background: #c00; /* Fallback */
+    border: none;
+    color: #fff;
+    text-shadow: 0 1px rgba(255,255,255,0.3);
+	text-transform:uppercase;
+	float:right;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding:0;
+}
+.loginform input[type=submit]:hover,
+.loginform .log-twitter:hover {
+    box-shadow: 
+        inset 0 1px rgba(255,255,255,0.3), 
+        inset 0 20px 40px rgba(255,255,255,0.15);
+}
+
+.loginform input[type=submit]:active,
+.loginform .log-twitter:active{
+    top: 1px;
+}
+
+/* Fallback fro broswers that don't support box shadows */
+.no-boxshadow .loginform input[type=submit]:hover {
+    background: #ffb347;
+}
+
+.no-boxshadow .loginform .log-twitter:hover {
+    background: #2a8ac4;
+}
+
+.loginform p:last-of-type {
+    clear: both;    
+}
+
+.loginform .opt {
+    text-align: right;
+    margin-right: 3px;
+}
+
+.loginform label[for=showPassword] {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.loginform input[type=checkbox] {
+    vertical-align: middle;
+    margin: -1px 5px 0 1px;
+}
+.remember{
+	text-align:left;
+}
+.bot{
+	clear:both;
+	padding:0;
+	overflow:hidden;
+}
+.loginform .remember label{
+	display:inline;
+	font-size:12px;
+	padding:0;
+	color:#fff;
+	text-transform:capitalize;
+}
+.forgot_pw{
+	float:right;
+	font-size:12px;
+}
+.signup_link{
+	color:#fff;
+	line-height:38px;
+	font-size:20px;
+	float:left;
+}
+.rowscaptcha img{
+	height:40px;
+}
+small{
+	display:block;
+	clear:both;
+}
+.forgotbtn{
+	float:left;
+	color:#ccc;
+	display:block;
+	margin:20px 0 0 0;
+}
